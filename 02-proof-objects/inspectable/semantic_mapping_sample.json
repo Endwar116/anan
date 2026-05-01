@@ -1,0 +1,53 @@
+{
+  "artifact_type": "semantic_mapping_sample",
+  "public_safe": true,
+  "raw_inventory_slice": [
+    {
+      "path": "Downloads/SIC_notes_final.md",
+      "observed_signal": "protocol note"
+    },
+    {
+      "path": "Archives/SIC_notes_final_v2.md",
+      "observed_signal": "possible variant"
+    },
+    {
+      "path": "Workspace/runtime_gate_trace.json",
+      "observed_signal": "runtime artifact"
+    }
+  ],
+  "semantic_snapshot": [
+    {
+      "artifact_id": "a1",
+      "semantic_role": "protocol_note",
+      "topic": "semantic_integrity"
+    },
+    {
+      "artifact_id": "a2",
+      "semantic_role": "possible_variant",
+      "topic": "semantic_integrity"
+    },
+    {
+      "artifact_id": "a3",
+      "semantic_role": "runtime_trace",
+      "topic": "runtime_governance"
+    }
+  ],
+  "governance_state": [
+    {
+      "artifact_id": "a1",
+      "state": "classified_not_deeply_read"
+    },
+    {
+      "artifact_id": "a2",
+      "state": "handoff_required_for_dedupe_review"
+    },
+    {
+      "artifact_id": "a3",
+      "state": "terminal_public_sample"
+    }
+  ],
+  "boundary": {
+    "classification_is_not_deep_reading": true,
+    "map_is_not_archive": true
+  }
+}

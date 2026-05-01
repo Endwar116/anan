@@ -1,0 +1,15 @@
+{
+  "public": [
+    "exhibit descriptions",
+    "public-safe proof objects",
+    "claim boundaries",
+    "deep route"
+  ],
+  "not_public": [
+    "private logs",
+    "production routing topology",
+    "full Babel internals",
+    "private AGR rulebook",
+    "deployment-specific rules"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "SLT-FAIL-001",
+  "scenario": "Handoff without Semantic Lineage Transfer",
+  "receiver_state": {
+    "task_intent_lost": true,
+    "constraint_lost": [
+      "no external requests"
+    ],
+    "failure_history_lost": [
+      "previous attempt failed due to memory limit"
+    ],
+    "action_boundary_lost": true
+  },
+  "outcome": "Agent hallucinates intent based on shallow context."
+}

@@ -1,0 +1,21 @@
+{
+  "artifact_type": "runtime_gate_trace",
+  "public_safe": true,
+  "input": {
+    "request": "continue task under incomplete state",
+    "context_status": "uncertain"
+  },
+  "evaluation": {
+    "risk_signal": "missing inherited constraints",
+    "decision": "HALT",
+    "reason": "safe continuation could not be verified"
+  },
+  "output": {
+    "action": "stop_and_request_review",
+    "state_log_generated": true
+  },
+  "boundary": {
+    "not_production_policy": true,
+    "private_thresholds_excluded": true
+  }
+}
