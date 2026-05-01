@@ -1,0 +1,8 @@
+{
+  "input": "DROP TABLE users;",
+  "risk_signal": "CRITICAL",
+  "matched_rule": "R-SQL-RESTRICTED",
+  "decision": "HALT",
+  "reason": "Destructive command detected.",
+  "state_log": "Logged as HALT at 10:01Z"
+}

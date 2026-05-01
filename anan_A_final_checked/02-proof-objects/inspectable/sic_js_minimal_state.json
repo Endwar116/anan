@@ -1,0 +1,22 @@
+{
+  "artifact_type": "sic_js_minimal_state",
+  "public_safe": true,
+  "sic_version": "2.0",
+  "state": {
+    "context": "public handoff example",
+    "current_action": "preserve semantic state across agents",
+    "status": "inspectable_sample"
+  },
+  "intent": {
+    "user_intent": "understand what state is being carried",
+    "system_intent": "show a minimal public state surface"
+  },
+  "event": {
+    "description": "state prepared for handoff",
+    "trigger": "public_demo"
+  },
+  "boundary": {
+    "private_runtime_excluded": true,
+    "production_policy_excluded": true
+  }
+}

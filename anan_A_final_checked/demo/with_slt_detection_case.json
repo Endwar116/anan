@@ -1,0 +1,17 @@
+{
+  "case_id": "SLT-DETECT-001",
+  "expected_lineage_items": [
+    "L1: intent",
+    "L2: constraints",
+    "L3: history"
+  ],
+  "receiver_claimed_items": [
+    "L1: intent"
+  ],
+  "missing_items_detected": [
+    "L2: constraints",
+    "L3: history"
+  ],
+  "decision": "VERIFY_REQUIRED",
+  "action": "Protocol blocks execution until lineage is fully restored."
+}

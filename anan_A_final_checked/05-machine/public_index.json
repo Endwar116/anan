@@ -1,0 +1,19 @@
+{
+  "repo": "anan",
+  "release_profile": "public_entry_gallery",
+  "audience_layers": ["general_reader", "young_reader", "technical_reviewer"],
+  "core_exhibits": [
+    "semantic_state",
+    "semantic_integrity",
+    "runtime_governance",
+    "multi_llm_coordination",
+    "semantic_mapping_governance"
+  ],
+  "proof_objects": [
+    "02-proof-objects/inspectable/sic_js_minimal_state.json",
+    "02-proof-objects/inspectable/runtime_gate_trace.json",
+    "02-proof-objects/inspectable/multi_agent_routing_trace.json",
+    "02-proof-objects/inspectable/semantic_mapping_sample.json",
+    "02-proof-objects/inspectable/agr_decision_trace_sample.json"
+  ]
+}

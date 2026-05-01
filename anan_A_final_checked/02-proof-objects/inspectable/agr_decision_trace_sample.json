@@ -1,0 +1,27 @@
+{
+  "artifact_type": "agr_decision_trace_sample",
+  "public_safe": true,
+  "input": {
+    "item_id": "artifact_a2",
+    "current_state": "possible_variant",
+    "requested_action": "publish"
+  },
+  "matched_rule": {
+    "rule_id": "AGR-PUBLIC-REVIEW-001",
+    "condition": "possible_variant cannot be published before dedupe review"
+  },
+  "decision": {
+    "action": "BLOCK_PUBLICATION",
+    "next_state": "HANDOFF_REQUIRED",
+    "reason": "dedupe review required before public release"
+  },
+  "proof_record": {
+    "trace_id": "public-agr-sample-001",
+    "proof_required": true,
+    "review_status": "pending"
+  },
+  "boundary": {
+    "full_private_rulebook_excluded": true,
+    "production_weights_excluded": true
+  }
+}
