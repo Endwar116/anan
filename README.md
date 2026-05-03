@@ -66,6 +66,18 @@ Read / 閱讀: [`02-proof-objects/PROOF_OBJECT_INDEX.md`](02-proof-objects/PROOF
 
 ---
 
+## Conformance route / 一致性測試路線
+
+Formal conformance vectors, schema surfaces, and reference test fixtures live in the deep SIC-SIT / AN∞Node technical layer, not in this front-door repository.
+
+正式的一致性測試向量、schema 表面與 reference test fixtures 位於深度 SIC-SIT / AN∞Node 技術層，不放在這個前門倉庫。
+
+This repository explains the public shape. The conformance pack is responsible for fixed input → expected output checks.
+
+本倉庫負責解釋公開形狀；conformance pack 負責固定輸入→預期輸出的可機器檢查。
+
+---
+
 ## Deep technical route / 深度技術路線
 
 For full technical review, use AN∞Node. This repository is the entry layer; AN∞Node is the deep technical universe.
