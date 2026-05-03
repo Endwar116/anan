@@ -3,5 +3,7 @@
   "kid_friendly": "simple/FIRST_LOOK.md",
   "expert_path": "for-experts/DEPTH_MAP.md",
   "reviewer_path": "reviewer/TECHNICAL_REVIEWER_GUIDE.md",
+  "proof_objects": "02-proof-objects/PROOF_OBJECT_INDEX.md",
+  "conformance_route": "SIC-SIT-Protocol/conformance/",
   "deep_repo": "AN∞Node / an-node"
 }
